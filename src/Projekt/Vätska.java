@@ -2,5 +2,5 @@ package Projekt;
 
 public interface Vätska {
 
-    void getVätska();
+    void getVätska();   //Deklarering av interfacemetod
 }

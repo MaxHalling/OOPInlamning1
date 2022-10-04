@@ -10,7 +10,7 @@ public class Palm extends Växt implements Vätska {
     }
 
     @Override
-    public void getVätska() {       //Implementering av interfacemetoden
+    public void getVätska() {       //Implementering av interfacemetoden, är väl också polymorfism?
         JOptionPane.showMessageDialog(null,getNamn() + " ska ha " + (0.5 * getHöjd()) + " liter " + typAvVätska);
     }
 }
