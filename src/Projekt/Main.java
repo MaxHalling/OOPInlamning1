@@ -28,6 +28,9 @@ public class Main {
                 InterfaceVätska(putte);
                 break;
             }
+            else {
+                JOptionPane.showMessageDialog(null,"Det finns ingen växt med detta namn, var god försök igen.");
+            }
         }
 
 
