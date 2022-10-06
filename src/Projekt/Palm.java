@@ -6,7 +6,7 @@ public class Palm extends Växt implements Vätska {
     private final String typAvVätska = "kranvatten";
 
     public Palm(String namn, double höjd){
-        super(namn, höjd);
+        super(namn, höjd);      //Användning av dynamisk bindning?
     }
 
     @Override
